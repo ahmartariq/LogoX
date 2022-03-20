@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  background-color: #F6F6F6;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.input {
+  border-radius: 20px;
+  width:  50%;
+  height: 25px;
+  padding: 5px 10px;
+  margin-bottom: 30px;
+}
+
+.btn{ 
+  width: 55%;
+  height: 35px;
+  cursor: pointer;
+  background-color: #FFAC7D;
+  color : white;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+}
+ .btn:hover { 
+   background-color: #ffb78e;
+ }
+
+.btn:active {
+  background-color: #ff9b61;
+}
+
+.btninvert{ 
+  width: 55%;
+  height: 35px;
+  cursor: pointer;
+  background-color: white;
+  color : #FFAC7D;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+  border: 1px solid #FFAC7D;
+}
+ .btninvert:hover { 
+   background-color: #e6e6e6;
+ }
+
+.btninvert:active {
+  background-color: #d3d3d3;
+}
+
+.Logoimg { 
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.Logoimg:hover{
+  opacity: 70%;
+  transform: scale(1.1);
+}
+
+.white { 
+  color : white
+}
